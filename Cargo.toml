@@ -6,6 +6,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bootloader = "0.9.23"
 
 # the profile used for `cargo build`
 [profile.dev]
@@ -14,3 +15,4 @@ panic = "abort" # disable stack unwinding on panic
 # the profile used for `cargo build --release`
 [profile.release]
 panic = "abort" # disable stack unwinding on panic
+
